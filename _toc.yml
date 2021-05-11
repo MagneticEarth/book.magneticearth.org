@@ -1,0 +1,4 @@
+- file: intro/welcome
+- part: "Geomagnetic Data & Models"
+  chapters:
+  - file: geomag-obs-models/01-Visualising-Geomagnetic-Observatory-Data
