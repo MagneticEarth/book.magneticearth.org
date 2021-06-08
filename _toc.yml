@@ -1,4 +1,6 @@
-- file: intro/welcome
-- part: "Geomagnetic Data & Models"
-  chapters:
-  - file: geomag-obs-models/01-Visualising-Geomagnetic-Observatory-Data
+format: jb-book
+root: intro/welcome
+options:
+  caption: Geomagnetic Data & Models
+chapters:
+- file: geomag-obs-models/01-Visualising-Geomagnetic-Observatory-Data
