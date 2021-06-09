@@ -28,8 +28,4 @@ jobs:
               jupyter-book build .
               '
       - name: Deploy preview with netlify
-        if: github.ref != 'refs/heads/main'
         run: netlify deploy --dir=_build/html --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_SITE_API_ID }}
-      - name: Deploy with netlify (production)
-        if: github.ref == 'refs/heads/main'
-        run: netlify deploy --dir=_build/html --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_SITE_API_ID }} --prod
