@@ -4,3 +4,4 @@ options:
   caption: Geomagnetic Data & Models
 chapters:
 - file: geomag-obs-models/01a_Visualising-Geomagnetic-Observatory-Data
+- file: geomag-obs-models/02a_K-Index-Calculation
