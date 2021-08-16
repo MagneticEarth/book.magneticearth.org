@@ -22,7 +22,7 @@ def forwardModel_r( xt0, time, rayleigh, prandtl, b):
     tstart = time[0]
     tend = time[-1]
     y0 = np.array( xt0, dtype=float )
-    sol = solve_ivp( Lorentz63, [tstart,tend], y0, args=myParams, dense_output=True)
+    sol = solve_ivp( Lorenz63, [tstart,tend], y0, args=myParams, dense_output=True)
     xt = sol.sol(time)
 
     return xt
