@@ -2,8 +2,8 @@ import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 
-def Lorentz63(t, y, sig, rho, beta):
-# Lorentz '63 model
+def Lorenz63(t, y, sig, rho, beta):
+# Lorenz '63 model
     out = np.zeros_like(y)
     out[0] = sig * ( y[1] - y[0] )
     out[1] = y[0] * ( rho - y[2] ) - y[1] 
