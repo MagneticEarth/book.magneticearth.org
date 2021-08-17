@@ -12,3 +12,4 @@ parts:
 - caption: Data Assimilation
   chapters:
   - file: data_assimilation/01a_lorenz
+  - file: data_assimilation/01b_lorenz_enkf
