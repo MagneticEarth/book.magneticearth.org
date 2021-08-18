@@ -1,3 +1,4 @@
 - [Ashley Smith](https://github.com/smithara) (maintainer)
 - [David Kerridge](https://github.com/David-Kerridge)
 - [Grace Cox](https://github.com/gracecox)
+- [Alexandre Fournier](https://github.com/af0974)
