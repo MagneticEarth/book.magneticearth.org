@@ -1,11 +1,15 @@
 format: jb-book
 root: intro/welcome
-options:
-  caption: Geomagnetic Data & Models
-chapters:
-- file: geomag-obs-models/01a_Visualising-Geomagnetic-Observatory-Data
-- file: geomag-obs-models/02a_K-Index-Calculation
-- file: geomag-obs-models/03a_Magnetic-Field-Line-Tracing
-- file: geomag-obs-models/04a_SHA1
-- file: geomag-obs-models/04b_SHA2
-- file: geomag-obs-models/05a_Swarm-Measurements
+parts:
+- caption: Geomagnetic Data & Models
+  chapters:
+  - file: geomag-obs-models/01a_Visualising-Geomagnetic-Observatory-Data
+  - file: geomag-obs-models/02a_K-Index-Calculation
+  - file: geomag-obs-models/03a_Magnetic-Field-Line-Tracing
+  - file: geomag-obs-models/04a_SHA1
+  - file: geomag-obs-models/04b_SHA2
+  - file: geomag-obs-models/05a_Swarm-Measurements
+- caption: Data Assimilation
+  chapters:
+  - file: data_assimilation/01a_lorenz
+  - file: data_assimilation/01b_lorenz_enkf
