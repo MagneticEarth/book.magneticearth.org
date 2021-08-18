@@ -4,6 +4,7 @@ dependencies:
   - jupyterlab
   - python=3.8
   - ipywidgets=7.6
+  - ipympl=0.7
   - watermark=2.2
   - numpy=1.20
   - scipy=1.6
