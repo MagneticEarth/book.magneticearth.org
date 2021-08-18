@@ -1,4 +1,5 @@
 dependencies:
+  - ipympl
   - numpy
   - scipy
   - matplotlib
