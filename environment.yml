@@ -1,6 +1,6 @@
 channels:
   - conda-forge
 dependencies:
-  - numpy=1.20
-  - scipy=1.6
-  - matplotlib=3.4
+  - numpy
+  - scipy
+  - matplotlib
