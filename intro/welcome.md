@@ -7,7 +7,12 @@ This is an interactive text book used as part of the [5th and 6th IAGA Schools](
 Some of these pages are generated from Jupyter notebooks which can be interacted with on the [ESA Swarm Virtual Research Environment (VRE)](https://earth.esa.int/eogateway/tools/swarm-vre) - sign up for free at [vires.services](https://vires.services).
 
 On pages with code you will see a 🚀 rocket button at the top. Hover over that button and select *JupyterHub* to launch the notebook interactively on the VRE.
+
+You can also [use this link](https://vre.vires.services/hub/user-redirect/git-pull?repo=https%3A//github.com/MagneticEarth/book.magneticearth.org&urlpath=lab/tree/book.magneticearth.org/geomag-obs-models&branch=main) to load the notebooks, or open <https://vre.vires.services> and open a terminal and `git clone https://github.com/MagneticEarth/book.magneticearth.org`
+
+If you want to *remove all your local changes and reset the repository*: `git -C ~/book.magneticearth.org reset --hard origin/main`
 :::
+
 
 ---
 
