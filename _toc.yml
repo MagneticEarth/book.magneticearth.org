@@ -10,6 +10,7 @@ parts:
   - file: geomag-obs-models/04b_SHA2
   - file: geomag-obs-models/04c_GroundObs-to-Model
   - file: geomag-obs-models/05a_Swarm-Measurements
+  - file: geomag-obs-models/06a_Models-Visualised
 - caption: Data Assimilation
   chapters:
   - file: data_assimilation/01a_lorenz
