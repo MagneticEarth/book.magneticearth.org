@@ -37,6 +37,7 @@ jobs:
         with:
           publish-dir: './_build/html'
           production-deploy: false
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           enable-pull-request-comment: true
           enable-commit-comment: false
           overwrites-pull-request-comment: true
