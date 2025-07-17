@@ -31,5 +31,15 @@ jobs:
               pip install 'jupyter-book==0.15.1' && \
               jupyter-book build --verbose .
               '
-      - name: Deploy preview with netlify
-        run: netlify deploy --dir=_build/html --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_SITE_API_ID }}
+      - name: Deploy preview to Netlify
+        if: always()
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: './_build/html'
+          production-deploy: false
+          enable-pull-request-comment: true
+          enable-commit-comment: false
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_API_ID }}
