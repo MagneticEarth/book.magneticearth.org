@@ -8,8 +8,11 @@ parts:
   - file: geomag-obs-models/03a_Magnetic-Field-Line-Tracing
   - file: geomag-obs-models/04a_SHA1
   - file: geomag-obs-models/04b_SHA2
-  - file: geomag-obs-models/04c_GroundObs-to-Model
-  - file: geomag-obs-models/05a_Swarm-Measurements
+- caption: Practical Field Modelling
+  chapters:
+  - file: practical-field-modelling/01a_Making-a-main-field-model
+  - file: practical-field-modelling/02a_Satellite-data-selection
+  - file: practical-field-modelling/02b_Modelling-with-Swarm-data
 - caption: Data Assimilation
   chapters:
   - file: data_assimilation/01a_lorenz
