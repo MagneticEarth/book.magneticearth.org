@@ -13,6 +13,9 @@ parts:
   - file: practical-field-modelling/01a_Making-a-main-field-model
   - file: practical-field-modelling/02a_Satellite-data-selection
   - file: practical-field-modelling/02b_Modelling-with-Swarm-data
+- caption: EM Induction
+  chapters:
+  - file: em-induction/02a_geomagnetic-depth-sounding
 - caption: Data Assimilation
   chapters:
   - file: data_assimilation/01a_lorenz
