@@ -1,10 +1,10 @@
 # Welcome
 
-This is an interactive text book used as part of the [5th and 6th IAGA Schools](https://iaga-aiga.org/iagaschool/). Check [here](https://github.com/MagneticEarth/book.magneticearth.org/blob/main/CONTRIBUTORS.md) to see the authors.
+This is an interactive text book used as part of the [IAGA Schools](https://iaga-aiga.org/iagaschool/). Check [here](https://github.com/MagneticEarth/book.magneticearth.org/blob/main/CONTRIBUTORS.md) to see the authors.
 
 :::{admonition} How to run the interactive elements
 :class: note
-Some of these pages are generated from Jupyter notebooks which can be interacted with on the [ESA Swarm Virtual Research Environment (VRE)](https://earth.esa.int/eogateway/tools/swarm-vre) - sign up for free at [vires.services](https://vires.services).
+Some of these pages are generated from Jupyter notebooks which can be interacted with on the [ESA Swarm Virtual Research Environment (VRE)](https://earth.esa.int/eogateway/tools/swarm-vre) - sign up for free at [vires.services](https://vires.services/oauth/accounts/signup/).
 
 On pages with code you will see a 🚀 rocket button at the top. Hover over that button and select *JupyterHub* to launch the notebook interactively on the VRE.
 

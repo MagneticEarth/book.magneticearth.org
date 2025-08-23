@@ -2,3 +2,5 @@
 - [David Kerridge](https://github.com/David-Kerridge)
 - [Grace Cox](https://github.com/gracecox)
 - [Alexandre Fournier](https://github.com/af0974)
+- [Chris Finlay](https://github.com/finlay-chris)
+- [Alexander Grayver](https://github.com/agrayver)
