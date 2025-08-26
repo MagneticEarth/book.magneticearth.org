@@ -15,6 +15,7 @@ parts:
   - file: practical-field-modelling/02b_Modelling-with-Swarm-data
 - caption: EM Induction
   chapters:
+  - file: em-induction/00a_EM-GeoSci-setup
   - file: em-induction/02a_geomagnetic-depth-sounding
 - caption: Data Assimilation
   chapters:
