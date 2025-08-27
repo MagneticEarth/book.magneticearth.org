@@ -88,8 +88,14 @@ def main():
     root_dir = os.getcwd()
     print(f"📁 Root directory: {root_dir}")
     
-    # Find all notebooks
-    notebooks = find_all_notebooks(root_dir)
+    # Find all notebooks only in the em-apps subdirectory
+    em_apps_dir = os.path.join(root_dir, "em-apps")
+    if not os.path.exists(em_apps_dir):
+        print(f"❌ Directory 'em-apps' not found in {root_dir}")
+        return
+    
+    print(f"📁 Searching in: {em_apps_dir}")
+    notebooks = find_all_notebooks(em_apps_dir)
     
     if not notebooks:
         print("❌ No notebooks found!")
@@ -104,9 +110,9 @@ def main():
     
     for notebook_path in notebooks:
         # Make path relative for cleaner output
-        rel_path = os.path.relpath(notebook_path, root_dir)
+        rel_path = os.path.relpath(notebook_path, em_apps_dir)
         
-        if update_notebook_kernel(rel_path):
+        if update_notebook_kernel(notebook_path):
             success_count += 1
         else:
             error_count += 1
